@@ -19,6 +19,6 @@ module.exports = {
         
 	async execute(interaction) {
 		const price = await getETHPrice();
-		await interaction.reply(price.toString());
+		await interaction.reply("USD " + price.toString());
 	},
 };

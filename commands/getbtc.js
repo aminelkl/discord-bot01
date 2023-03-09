@@ -19,7 +19,7 @@ module.exports = {
         
 	async execute(interaction) {
 		const price = await getBTCPrice();
-		await interaction.reply(price.toString());
+		await interaction.reply("USD " + price.toString());
 	},
 };
 
