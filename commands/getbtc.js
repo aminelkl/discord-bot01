@@ -22,3 +22,5 @@ module.exports = {
 		await interaction.reply(price.toString());
 	},
 };
+
+``
