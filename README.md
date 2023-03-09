@@ -8,7 +8,7 @@ With Slash Commands, all you have to do is type / and you're ready to use your f
 
 /eth: Display the latest quotes on eth/usd pair using coinmarketcap API
 
-/gpt: Prompting chatGPT API
+/gpt: Prompting chatGPT API using openai API
 ```
 
 
